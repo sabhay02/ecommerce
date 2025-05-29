@@ -48,3 +48,80 @@
     
 
 }
+@media (max-width: 1024px) {
+  .offers {
+    width: 90%;
+    padding: 0px 60px;
+    height: auto;
+    gap: 40px;
+  }
+
+  .offers-right img {
+    height: 250px;
+  }
+
+  .offers-left h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .offers {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 30px;
+  }
+
+  .offers-left,
+  .offers-right {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .offers-right {
+    justify-content: center;
+  }
+
+  .offers-left h1 {
+    font-size: 28px;
+  }
+
+  .offers-left p {
+    font-size: 16px;
+  }
+
+  .offers-left button {
+    width: 180px;
+    height: 38px;
+    font-size: 15px;
+  }
+
+  .offers-right img {
+    height: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .offers-left h1 {
+    font-size: 24px;
+  }
+
+  .offers-left p {
+    font-size: 14px;
+  }
+
+  .offers-left button {
+    width: 160px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .offers-right img {
+    height: 180px;
+  }
+}
