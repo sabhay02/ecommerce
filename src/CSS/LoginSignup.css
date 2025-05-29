@@ -67,3 +67,43 @@ font-size: 20px;
 font-weight: 500;
 cursor: pointer;
 }
+@media (max-width: 768px) {
+  .loginsignup-container {
+    width: 90%;
+    height: auto;
+    padding: 30px 20px;
+    padding-bottom: 60px;
+  }
+
+  .loginsignup-container button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .loginsignup {
+    padding-top: 30px;
+  }
+
+  .loginsignup-container {
+    padding: 20px 15px;
+  }
+
+  .loginsignup-fields input {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+
+  .loginsignup-agree {
+    font-size: 16px;
+    gap: 10px;
+  }
+
+  .loginsignup-login {
+    font-size: 16px;
+  }
+
+  .loginsignup-container button {
+    font-size: 18px;
+  }
+}
